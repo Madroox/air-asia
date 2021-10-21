@@ -1,0 +1,151 @@
+body {
+  margin: 0;
+  font-family: "Open Sans", Arial, sans-serif;
+  background-color: #001821;
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.42;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  font-weight: normal;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  height: 123.36px;
+  position: relative;
+  margin-bottom: 150px;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1150px;
+}
+
+.logo {
+  position: absolute;
+  top: 29px;
+  left: 0;
+  display: block;
+}
+
+.menu {
+  position: absolute;
+  top: 42px;
+  left: 250px;
+}
+
+.contacts {
+  position: absolute;
+  top: 26px;
+  right: 0;
+}
+
+.menu__item {
+  display: inline;
+  vertical-align: middle;
+  margin-bottom: 50px;
+}
+
+.menu__link {
+  font-size: 14px;
+}
+
+.menu__link:hover {
+  color: #f5170e;
+}
+.contacts {
+  font-style: normal;
+  text-align: right;
+}
+
+.contacts__phone {
+  text-decoration: none;
+  font-size: 26px;
+  margin-bottom: 4px;
+}
+
+.contacts__workhours {
+  font-size: 13px;
+  text-decoration: underline;
+}
+
+.content__title {
+  width: 511px;
+  height: 197px;
+  left: 390px;
+  top: 196px;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 72px;
+  line-height: 98px;
+  margin-bottom: 28px;
+}
+
+.content__info {
+  font-style: normal;  
+  font-size: 18px;
+  line-height: 20px;
+  align-items: center;
+  color: #FFFFFF;
+  margin-bottom: 34px;
+}
+
+.wrapper {
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url("../img/bg1.png") center top no-repeat, url("../img/bg2.png") center bottom 10% no-repeat;
+}
+
+.btn {
+  display: inline-block;
+  border-radius: 26px;
+  text-transform: uppercase;
+  padding: 1.125rem 2.4375rem;
+  font-size: 0.875rem;
+  font-weight: 700;
+}
+
+.btn:hover {
+  box-shadow: 0px 0px 10px 0 #ffffff;
+}
+
+.btn--red {
+  background-color: #f5170e;
+  color: #ffffff;
+}
+
+.btn-white{
+  background-color: #ffffff;
+  color: #f5170e;
+  border: 1px solid rgba(245, 23, 14, 0.4);
+}
+
+.active {
+  color: #f5170e;
+}
+
