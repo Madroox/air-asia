@@ -457,7 +457,7 @@ p {
 }
 
 .hero {
-  height: 80vh;
+  min-height: 20px;
 }
 
 .hero__container {
@@ -653,7 +653,7 @@ p {
   }
 
   .hero {
-    height: 95vh;
+    min-height: 20px;
   }
 
   .hero__container {
@@ -727,7 +727,7 @@ p {
 
   .hero {
     margin-bottom: 8rem;
-    height: 34.25rem;
+    padding: 115px 0 119px;
   }
 
   .news {
