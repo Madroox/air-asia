@@ -111,7 +111,7 @@ p {
   color: #ffffff;
 }
 
-.btn--color--white {
+.btn--white {
   background-color: #ffffff;
   color: #f5170e;
   border: 1px solid rgba(245, 23, 14, 0.4);
@@ -151,7 +151,7 @@ p {
 }
 
 .news-card {
-  height: 24.4375rem;
+  min-height: 24.4375rem;
   position: relative;
   border-radius: 5px;
   overflow: hidden;
@@ -636,7 +636,7 @@ p {
   }
 
   .header {
-    height: 6.25rem;
+    padding: 26.64px 0 20px;
   }
 
   .header__container {
@@ -757,7 +757,7 @@ p {
   }
 
   .footer {
-    height: 9.5rem;
+    min-height: 9.5rem;
     padding-bottom: 20px;
   }
 
