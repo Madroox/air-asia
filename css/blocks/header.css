@@ -1,0 +1,35 @@
+.header__container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  height: 100%;
+  padding: 0.9375rem 0;
+}
+
+.header__menu {
+  margin-bottom: 0.9375rem;
+}
+
+.header__logo {
+  margin-bottom: 0.9375rem;
+}
+
+@media (min-width: 768px) {
+  .header {
+    padding: 26.64px 0 20px;
+  }
+
+  .header__container {
+    flex-direction: row;
+    padding: 0;
+  }
+
+  .header__menu {
+    margin-right: auto;
+  }
+
+  .header__logo {
+    margin-right: 4.125rem;
+  }
+}

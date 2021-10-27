@@ -1,0 +1,26 @@
+.top-line {
+  max-height: 25.75rem;
+  height: 100vh;
+  background-color: #001821;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../../img/bg/headline.jpg");
+  background-size: cover;
+  background-position: center top;
+  background-repeat: no-repeat;
+}
+
+.top-line__container {
+  padding-top: 1.25rem;
+  padding-bottom: 0.625rem;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+@media (min-width: 768px) {
+  .top-line__container {
+    padding-top: 4.375rem;
+  }
+}
