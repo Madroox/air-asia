@@ -12,11 +12,11 @@
   height: 6.25rem;
   align-items: center;
   justify-content: center;
+  transition: ease .2s;
 }
 
 .partners__link:hover {
-  filter: grayscale(0);
-  transition: ease .2s;
+  filter: grayscale(0);  
 }
 
 @media (min-width: 768px) {
@@ -27,7 +27,6 @@
 
 @media (min-width: 1367px) {
   .partners__link {
-    filter: grayscale(100%);
-    transition: ease .2s;
+    filter: grayscale(100%);    
   }
 }

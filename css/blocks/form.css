@@ -12,7 +12,6 @@
 
 .form-btn:hover {
   background: #2B2B2B;
-  transition: ease .2s;
 }
 
 .form-btn--black {
@@ -26,7 +25,6 @@
 
 .form-btn--red:hover {
   background-color: #da0100;
-  transition: ease .2s;
 }
 
 .form__row {
@@ -112,9 +110,7 @@
 }
 
 .form__check-input {
-  position: absolute;
-  top: 0;
-  left: -99999px;
+  display: none;
 }
 
 .form__check-input:checked + .form__check-text {

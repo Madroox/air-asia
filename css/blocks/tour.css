@@ -75,11 +75,11 @@
 }
 
 .tour-card__item--duration:before {
-  background-image: url("../../img/icons/tours/calendar.png");
+  background: url("../../img/icons/css_sprites.png") -178px -60px;
 }
 
 .tour-card__item--feed:before {
-  background-image: url("../../img/icons/tours/meal.png");
+  background: url("../../img/icons/css_sprites.png") -122px -122px;
   width: 2.375rem;
 }
 
@@ -98,7 +98,6 @@
 .tour-card__btn:hover {
   background-color: #f5170e;
   color: #ffffff;
-  transition: ease .5s;
 }
 
 .tours {
@@ -121,10 +120,13 @@
 }
 
 .tours__title::after {
-  content: url("../../img/icons/flame.png");
-  padding-left: 10px;
-  width: 1.3125rem;
-  height: 1.75rem;
+  content: "";
+  position: absolute;
+  top: 22%;
+  left: 25%;
+  background: url("../../img/icons/css_sprites.png") -178px -105px;
+  width: 30px;
+  height: 30px;
 }
 
 @media (min-width: 768px) {

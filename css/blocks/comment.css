@@ -27,12 +27,17 @@
   font-size: 1.5rem;
   font-weight: 700;
   color: #2e77a4;
+  position: relative;
 }
 
 .comment-card__name::after {
-  content: url("../../img/icons/socials/vk-blue.png");
-  height: 1.875rem;
-  padding-left: 8px;
+  content: "";
+  position: absolute;
+  background: url("../../img/icons/css_sprites.png") -178px -10px;
+  width: 30px;
+  height: 30px;
+  left: 104%;
+
 }
 
 .comment-card__tegs {

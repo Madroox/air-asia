@@ -46,7 +46,6 @@
 .service-card__btn:hover {
   background-color: #f5170e;
   color: #ffffff;
-  transition: ease .5s;
 }
 
 .services {
