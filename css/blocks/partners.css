@@ -24,3 +24,10 @@
     margin-left: 1.25rem;
   }
 }
+
+@media (min-width: 1367px) {
+  .partners__link {
+    filter: grayscale(100%);
+    transition: ease .2s;
+  }
+}

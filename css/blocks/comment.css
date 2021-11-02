@@ -1,0 +1,157 @@
+.comment-card {
+  border-radius: 4px;
+  background-color: #f4f5f5;
+  padding: 0.9375rem;
+}
+
+.comment-card__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 1.875rem;
+}
+
+.comment-card__photo {
+  margin-bottom: 0.625rem;
+}
+
+.comment-card__user {
+  padding-left: 1.25rem;
+}
+
+.comment-card__name {
+  display: flex;
+  align-items: center;
+  text-decoration: underline;
+  margin-bottom: 1.25rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #2e77a4;
+}
+
+.comment-card__name::after {
+  content: url("../../img/icons/socials/vk-blue.png");
+  height: 1.875rem;
+  padding-left: 8px;
+}
+
+.comment-card__tegs {
+  text-align: center;
+}
+
+.comment-card__title {
+  color: #1a1b1e;
+  font-weight: 700;
+  margin-bottom: 1.5625rem;
+  text-align: center;
+  font-size: 1.5625rem;
+  font-weight: 700;
+  color: #1a1b1e;
+}
+
+.comment-card__text {
+  line-height: 27px;
+  margin-bottom: 3.125rem;
+  font-size: 1rem;
+  font-weight: 400;
+  color: #818181;
+}
+
+.comment-card__date {
+  color: #1a1b1e;
+  font-size: 14px;
+  font-weight: 400;
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: #1a1b1e;
+}
+
+.direction {
+  display: inline-block;
+  background-color: #b9eae4;
+  padding: 0.3125rem 1.0625rem;
+  text-align: center;
+  border-radius: 1.25rem;
+  font-size: 0.8125rem;
+  font-weight: 400;
+  color: #303030;
+}
+
+.avatar {
+  width: 8.6875rem;
+  height: 8.6875rem;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.avatar__img {
+  object-fit: cover;
+  object-position: center;
+}
+
+.comments {
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.comments__container {
+  padding: 3.125rem 0;
+}
+
+.comments__list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  column-count: 1;
+  column-gap: 1.875rem;
+  margin-bottom: 3.75rem;
+}
+
+.comments__item {
+  margin-bottom: 1.25rem;
+  display: inline-flex;
+}
+
+.comments__item:nth-child(2n) {
+  margin-right: 0;
+}
+
+@media (min-width: 768px) {
+  .comment-card {
+    width: 34.6875rem;
+    padding: 2.8125rem 1.8125rem 2.0625rem 1.5625rem;
+  }
+
+  .comment-card__header {
+    flex-direction: row;
+  }
+
+  .comment-card__photo {
+    margin-bottom: 0;
+  }
+
+  .comment-card__name {
+    margin-bottom: 0.625rem;
+  }
+
+  .comment-card__tegs {
+    margin-right: 5px;
+    margin-bottom: 5px;
+  }
+
+  .comment-card__title {
+    text-align: left;
+    font-size: 1.875rem;
+  }
+}
+
+@media (min-width: 1366px) {
+  .comments__container {
+    padding: 6.25rem 0 5.625rem;
+  }
+
+  .comments__list {
+    display: block;
+    column-count: 2;
+  }
+}
