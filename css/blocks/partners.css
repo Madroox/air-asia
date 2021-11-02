@@ -1,0 +1,33 @@
+.partners {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-left: -1.25rem;
+}
+
+.partners__link {
+  text-decoration: none;
+  display: flex;
+  width: 16.875rem;
+  height: 6.25rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.partners__link:hover {
+  filter: grayscale(0);
+  transition: ease .2s;
+}
+
+@media (min-width: 768px) {
+  .partners__item {
+    margin-left: 1.25rem;
+  }
+}
+
+@media (min-width: 1367px) {
+  .partners__link {
+    filter: grayscale(100%);
+    transition: ease .2s;
+  }
+}

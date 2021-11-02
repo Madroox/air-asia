@@ -1,0 +1,76 @@
+.inner-section {
+  position: relative;
+  background-color: #ffffff;
+  color: #000000;
+}
+
+.inner-section--padding {
+  padding-top: 3.125rem;
+  padding-bottom: 3.125rem;
+}
+
+.inner-section--bg--grey {
+  background-color: #f4f5f5;
+}
+
+.inner-section--bg--pink {
+  background-image: url("../../img/bg/middleline.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  min-height: 22.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.inner-section--bg--decor::after {
+  content: url("../../img/decor/couple.png");
+  height: 18.75rem;
+  position: absolute;
+  bottom: -2%;
+  right: -50%;
+  background-size: cover;
+}
+
+.inner-section__title {
+  position: relative;
+  z-index: 2;
+  margin-bottom: 1.875rem;
+  text-align: center;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.inner-section__title--width {
+  max-width: 50%;
+  font-size: 2.25rem;
+}
+
+.inner-section__title--color--white {
+  color: #ffffff;
+}
+
+@media (min-width: 768px) {
+  .inner-section--padding {
+    padding-top: 5.625rem;
+    padding-bottom: 7.1875rem;
+  }
+
+  .inner-section__title--width {
+    font-size: 3rem;
+  }
+
+  .inner-section__title--color--white {
+    margin-bottom: 0;
+  }
+}
+
+@media (min-width: 1366px) {
+  .inner-section--bg--decor::after {
+    right: 20%;
+  }
+    
+  .inner-section__title {
+    margin-bottom: 3.9375rem;
+    text-align: left;
+  }
+}
